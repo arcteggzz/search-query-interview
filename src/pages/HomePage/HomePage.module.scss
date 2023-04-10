@@ -4,6 +4,8 @@
   display: flex;
   flex-direction: column;
   width: 100vw;
+  min-height: 100vh;
+  background-color: azure;
 
   @include mobileStyles() {
     padding: 120px 3vw 0 3vw;
