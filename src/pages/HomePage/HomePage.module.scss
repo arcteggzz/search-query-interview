@@ -2,10 +2,8 @@
 
 .HomePage {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
   width: 100vw;
-  row-gap: 32px;
   height: 100vh;
   @include mobileStyles() {
     padding: 120px 3vw 0 3vw;

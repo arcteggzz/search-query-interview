@@ -1,5 +1,6 @@
 import styles from "./HomePage.module.scss";
 import AnimatedFadeInPage from "../../utils/AnimatedFadeInPage";
+import HomePageHeader from "./Components/HomePageHeader";
 import LatestTrends from "./Components/LatestTrends";
 
 const HomePage = () => {
@@ -7,6 +8,7 @@ const HomePage = () => {
     <>
       <AnimatedFadeInPage>
         <div className={styles.HomePage}>
+          <HomePageHeader />
           <LatestTrends />
         </div>
       </AnimatedFadeInPage>

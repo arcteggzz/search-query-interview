@@ -1,0 +1,49 @@
+@import "../../../assets/styles/functions.scss";
+
+.HomePageHeader {
+  nav {
+    display: flex;
+    width: 100vw;
+    padding: 40px;
+    justify-content: end;
+  }
+
+  header {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+
+    .search_bar {
+      display: flex;
+      background-color: #ffffff;
+      border-radius: 20px;
+      padding: 22px 40px;
+      width: 920px;
+      cursor: pointer;
+
+      input {
+        width: 820px;
+        color: rgba(0, 0, 0, 0.4);
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 39px;
+        background-color: transparent;
+        border: none;
+      }
+
+      input:focus {
+        outline: none;
+      }
+
+      .search_icon {
+        padding: 0 0;
+        border-radius: 20px;
+        cursor: pointer;
+
+        img {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
