@@ -1,0 +1,15 @@
+@import "../../assets/styles/functions.scss";
+
+.SearchPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  row-gap: 32px;
+  height: 100vh;
+  @include mobileStyles() {
+    padding: 120px 3vw 0 3vw;
+    text-align: center;
+    overflow-y: hidden;
+  }
+}
