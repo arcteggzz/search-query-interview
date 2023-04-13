@@ -17,7 +17,7 @@ const App = () => {
           <Routes location={location} key={location.pathname}>
             {/* public routes */}
             <Route path="/" element={<HomePage />} />
-            <Route path="/search" element={<SearchPage />} />
+            <Route path="/filter-product-search" element={<SearchPage />} />
           </Routes>
         </AnimatePresence>
       </AppContextProvider>
