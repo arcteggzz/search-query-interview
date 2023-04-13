@@ -3,13 +3,46 @@
 .SearchNavbar {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   width: 100vw;
-  row-gap: 32px;
-  height: 100vh;
+  padding: 40px;
   @include mobileStyles() {
     padding: 120px 3vw 0 3vw;
     text-align: center;
     overflow-y: hidden;
+  }
+
+  .search_bar {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 14px;
+    padding: 12px 28px;
+    width: 640px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+
+    input {
+      width: 570px;
+      color: rgba(0, 0, 0, 0.4);
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 28px;
+      background-color: transparent;
+      border: none;
+    }
+
+    input:focus {
+      outline: none;
+    }
+
+    .search_icon {
+      padding: 0 0;
+      border-radius: 14px 30px;
+      cursor: pointer;
+
+      img {
+        cursor: pointer;
+      }
+    }
   }
 }
